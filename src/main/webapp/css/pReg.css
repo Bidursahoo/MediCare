@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Tilt+Neon&display=swap');
+body {
+    background: linear-gradient(to left, #F0ECFB 0%, #B4ECFC 63%, #ACECFA 81%, #B0EDF8 100%);
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+}
+form {
+  max-width: 50%;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.form-heading {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #2f2f2f;
+  text-shadow: 1px 1px #000;
+}
+.form-btn {
+  text-align: center;
+  margin-top: 30px;
+}

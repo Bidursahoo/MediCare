@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none;
+}
+body{
+    background: linear-gradient(to left, #F0ECFB 0%, #B4ECFC 63%, #ACECFA 81%, #B0EDF8 100%);
+    font-family: 'Roboto', sans-serif;
+    height: 200vh;
+    width: 95vw;
+    margin: 0 2rem;
+}
+.flex{
+    display: flex;
+}
+.navbar{
+    z-index: 100;
+    top: 2vh;
+    position: fixed;
+    left: 2vw;
+    justify-content: space-between;
+    right: 2vw;
+    align-items: center;
+    
+
+}
+.navbar>img{
+    width: 3em;
+}
+.navbar>span{
+    font-family: 'Tilt Neon', cursive;
+}
+.nav-links>li{
+    margin: 0 1em;
+    padding-bottom: 0.25rem;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+.nav-links>li::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(85, 231, 0);
+    transition: width 0.25s ease-out;
+}
+.nav-links>li:hover::before {
+    width: 100%;
+    right: 0;
+    right: auto;
+}
+.welcome{
+    margin-top: 16vh;
+    justify-content: center;
+    font-family: 'Tilt Neon', cursive;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+.icon-link > .bi {
+    margin-top: .125rem;
+    margin-left: .125rem;
+    fill: currentcolor;
+    transition: transform .25s ease-in-out;
+}
+.icon-link:hover > .bi {
+    transform: translate(.25rem);
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}

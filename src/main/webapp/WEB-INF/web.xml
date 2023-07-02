@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>MediCare</display-name>
+  <welcome-file-list>
+    <welcome-file>Home.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AdminProcess</display-name>
+    <servlet-name>AdminProcess</servlet-name>
+    <servlet-class>AdminProcess</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminProcess</servlet-name>
+    <url-pattern>/AdminProcess</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DoctorUpdateProcess</display-name>
+    <servlet-name>DoctorUpdateProcess</servlet-name>
+    <servlet-class>DoctorUpdateProcess</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorUpdateProcess</servlet-name>
+    <url-pattern>/DoctorUpdateProcess</url-pattern>
+  </servlet-mapping>
+</web-app>
